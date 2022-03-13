@@ -1,0 +1,2 @@
+torchvision/_C.cpython-36m-aarch64-linux-gnu.so
+torchvision/_C_tests.cpython-36m-aarch64-linux-gnu.so

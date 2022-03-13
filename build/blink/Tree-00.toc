@@ -1,0 +1,10 @@
+('/usr/local/lib/python3.6/dist-packages/dlib-19.22.99-py3.6-linux-aarch64.egg',
+ None,
+ {'*.abi3.so',
+  '*.cpython-36m-aarch64-linux-gnu.so',
+  '*.py',
+  '*.pyc',
+  '*.so',
+  'EGG-INFO'},
+ 'DATA',
+ [])

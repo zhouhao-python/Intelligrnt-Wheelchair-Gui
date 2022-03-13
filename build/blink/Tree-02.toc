@@ -1,0 +1,10 @@
+('/home/e1009/intelligent_wheelchair_gui/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg',
+ None,
+ {'*.abi3.so',
+  '*.cpython-36m-aarch64-linux-gnu.so',
+  '*.py',
+  '*.pyc',
+  '*.so',
+  'EGG-INFO'},
+ 'DATA',
+ [])
