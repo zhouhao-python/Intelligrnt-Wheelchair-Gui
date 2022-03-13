@@ -17,7 +17,7 @@ class Ui_intelligentwheelchair(object):
         intelligentwheelchair.resize(804, 623)
         intelligentwheelchair.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/1/bitbug_favicon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/1/haligong.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         intelligentwheelchair.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(intelligentwheelchair)
         self.centralwidget.setObjectName("centralwidget")

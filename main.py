@@ -27,6 +27,7 @@ class mainWindow(QMainWindow, Ui_intelligentwheelchair):
     """
     Class documentation goes here.
     """
+
     def __init__(self, parent=None):
         """
         Constructor
@@ -302,6 +303,13 @@ class Worker(QThread):
                                             cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
                 self.sig_face.emit(frame)
         self.cap.release()
+
+    @pyqtSlot()
+    def gui_show(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

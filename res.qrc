@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file>image/haligong.ico</file>
+    <file>image/haligong.png</file>
+  </qresource>
+</RCC>
