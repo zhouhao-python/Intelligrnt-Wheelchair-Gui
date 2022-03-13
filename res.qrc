@@ -1,5 +1,11 @@
 <RCC>
   <qresource prefix="/">
+    <file>image/left.png</file>
+    <file>image/left_2.png</file>
+    <file>image/right.png</file>
+    <file>image/right_2.png</file>
+    <file>image/up.png</file>
+    <file>image/up_2.png</file>
     <file>image/haligong.ico</file>
     <file>image/haligong.png</file>
   </qresource>

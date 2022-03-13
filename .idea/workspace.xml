@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8113cf6-c31b-4b0d-a610-877fa3962467" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/drawlabel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/haligong.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uno-servo/uno-servo.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/up_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelligent_whellchair.py" beforeDir="false" afterPath="$PROJECT_DIR$/intelligent_whellchair.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/design.ui" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/option/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/option/basic_option.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/res.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uno-servo/uno-servo.ino" beforeDir="false" afterPath="$PROJECT_DIR$/uno-servo/uno-servo.ino" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +28,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="-3243">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <element signature="e#65#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawlabel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uno-servo/uno-servo.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/transforms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,13 +94,14 @@
       <find>sig1</find>
       <find>update_classification</find>
       <find>text</find>
-      <find>sig</find>
       <find>sig2</find>
       <find>Worker.__y_pred__</find>
       <find>0</find>
       <find>BasciOption</find>
-      <find>opt</find>
       <find>message</find>
+      <find>self.EYE_EAR_BEYOND_TIME</find>
+      <find>opt</find>
+      <find>sig</find>
     </findStrings>
     <replaceStrings>
       <replace>frame</replace>
@@ -70,16 +121,17 @@
         <option value="$PROJECT_DIR$/blink.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/drawlabel.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/models/transforms.py" />
+        <option value="$PROJECT_DIR$/uno-servo/uno-servo.ino" />
         <option value="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="width" value="1935" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,7 +149,7 @@
             <path>
               <item name="intelligent_wheelchair_gui" type="b2602c69:ProjectViewProjectNode" />
               <item name="intelligent_wheelchair_gui" type="462c0819:PsiDirectoryNode" />
-              <item name="uno-servo" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,19 +161,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intelligent_wheelchair_gui\image" />
+      <recent name="E:\intelligent_wheelchair_gui" />
+      <recent name="D:\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\intelligent_wheelchair_gui\weight" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\intelligent_wheelchair_gui" />
-      <recent name="E:\intelligent_wheelchair_gui\image" />
-      <recent name="D:\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Intelligent_wheelchair_gui_2">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Intelligent_wheelchair_gui_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="intelligent_whellchair" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,7 +246,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intelligent_whellchair.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Intelligent_wheelchair_gui_2" />
         <item itemvalue="Python.blink" />
         <item itemvalue="Python tests.pytest in E:/intelligent_wheelchair_gui/blink.py" />
         <item itemvalue="Python.run_intelligent_whellchair_GUI" />
-        <item itemvalue="Python.intelligent_whellchair" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +321,8 @@
       <workItem from="1625322942337" duration="4081000" />
       <workItem from="1625366337833" duration="107000" />
       <workItem from="1625366483691" duration="9084000" />
-      <workItem from="1647169692943" duration="3069000" />
+      <workItem from="1647169692943" duration="3269000" />
+      <workItem from="1647175311649" duration="4724000" />
     </task>
     <servers />
   </component>
@@ -282,18 +335,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65732000" />
+    <option name="totallyTimeSpent" value="70656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15369128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12214765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32853025" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.043227665" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.043227665" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26368877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -302,7 +355,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.38040346" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2795389" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,6 +371,7 @@
     <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$intelligent_whellchair.coverage" NAME="intelligent_whellchair Coverage Results" MODIFIED="1625302706975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$serialwin32.coverage" NAME="serialwin32 Coverage Results" MODIFIED="1625136465970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial" />
+    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647183933412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625390231793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -352,25 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run-cpu-dlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#39#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/run-cpu-dlib.py" />
     <entry file="file://$PROJECT_DIR$/source_pyqt.qrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/mydataset.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mydataset.py" />
     <entry file="file://$PROJECT_DIR$/Desktop/4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -383,47 +423,13 @@
     <entry file="file://$PROJECT_DIR$/Desktop/about.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/111.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blink.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <folding>
-            <element signature="e#203#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/losses.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/optim.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/transforms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/tensorboard.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/111.py" />
+    <entry file="file://$PROJECT_DIR$/blink.py" />
+    <entry file="file://$PROJECT_DIR$/models/dataloader.py" />
+    <entry file="file://$PROJECT_DIR$/models/losses.py" />
+    <entry file="file://$PROJECT_DIR$/models/optim.py" />
+    <entry file="file://$PROJECT_DIR$/models/scheduler.py" />
+    <entry file="file://$PROJECT_DIR$/models/tensorboard.py" />
     <entry file="file://$PROJECT_DIR$/models/classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3776">
@@ -441,25 +447,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2808">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/camera.py" />
+    <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py" />
     <entry file="file://$PROJECT_DIR$/bitbug_favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -473,31 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drawlabel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uno-servo/uno-servo.ino">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/option/basic_option.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2866">
@@ -505,10 +469,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uno-servo/uno-servo.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="-3243">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#65#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawlabel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/pycharm_temp/.PyCharm2019.1/system/python_stubs/899747117/PyQt5/QtCore/QTimer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>

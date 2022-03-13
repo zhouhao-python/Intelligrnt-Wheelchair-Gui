@@ -52,7 +52,6 @@ void loop() {
       zuoyou.write(70);
       delay(10);
       zuoyou.write(92+zuoyou_offset);
-      
     }
     if (read_byte == 'r'){
       digitalWrite(pinNumber,LOW);

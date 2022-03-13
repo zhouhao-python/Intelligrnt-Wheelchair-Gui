@@ -10,7 +10,6 @@ from intelligent_whellchair import Ui_intelligentwheelchair
 import torch
 import serial.tools.list_ports
 import cv2
-from option import BasciOption
 import dlib
 import numpy as np
 from models import GoogleNet3
@@ -153,14 +152,13 @@ class Worker(QThread):
             serialName = plist_0[0]
             serialFd = serial.Serial(serialName, 115200, timeout=60)
             # print("可用端口名>>>", serialFd.name)
-            opt = BasciOption(train_flag=False).initialize()
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
             # print("device is ", device)
             model = GoogleNet3()
             model.load_state_dict(torch.load("./weight/Basic_Epoch_3_Accuracy_0.93.pth"))
             # 近中远
             model = model.to(device)
-            transformer = create_transform(opt)
+            transformer = create_transform()
 
             self.cap.set(3, 640)
             self.cap.set(4, 480)
