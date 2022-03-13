@@ -129,7 +129,6 @@ class Worker(QThread):
         self.time_list = []
         self.cap = cv2.VideoCapture(self.cap_num)
 
-
     def eye_aspect_ratio(self,eye):  # 计算EAR
         A = distance.euclidean(eye[1], eye[5])
         B = distance.euclidean(eye[2], eye[4])
@@ -159,7 +158,7 @@ class Worker(QThread):
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
             # print("device is ", device)
             model = GoogleNet3()
-            model.load_state_dict(torch.load(r"./Basic_Epoch_3_Accuracy_0.93.pth"))
+            model.load_state_dict(torch.load("./weight/Basic_Epoch_3_Accuracy_0.93.pth"))
             # 近中远
             model = model.to(device)
             transformer = create_transform(opt)
@@ -311,7 +310,6 @@ class Worker(QThread):
         Slot documentation goes here.
         """
         # TODO: not implemented yet
-
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

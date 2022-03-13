@@ -2,7 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8113cf6-c31b-4b0d-a610-877fa3962467" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/111.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Epoch_3_Accuracy_0.93.pth" beforeDir="false" afterPath="$PROJECT_DIR$/weight/Basic_Epoch_3_Accuracy_0.93.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blink.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/native_libs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/EGG-INFO/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/BdfFontFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/BlpImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/BmpImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/BufrStubImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ContainerIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/CurImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/DcxImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/DdsImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/EpsImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ExifTags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/FitsStubImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/FliImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/FontFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/FpxImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/FtexImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GbrImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GdImageFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GifImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GimpGradientFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GimpPaletteFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/GribStubImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/Hdf5StubImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/IcnsImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/IcoImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/Image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageChops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageCms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageColor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageDraw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageDraw2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageEnhance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageFont.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageGrab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageMath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageMode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageMorph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageOps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImagePalette.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImagePath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageQt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageSequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageShow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageStat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageTk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageTransform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImageWin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/ImtImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/IptcImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/Jpeg2KImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/JpegImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/JpegPresets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/McIdasImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/MicImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/MpegImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/MpoImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/MspImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PSDraw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PaletteFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PalmImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PcdImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PcfFontFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PcxImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PdfImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PdfParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PixarImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PngImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PpmImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PsdImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/PyAccess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/SgiImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/SpiderImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/SunImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/TarIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/TgaImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/TiffImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/TiffTags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/WalImageFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/WebPImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/WmfImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/XVThumbImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/XbmImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/XpmImagePlugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_binary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imaging.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingmath.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingmath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingmorph.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingmorph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingtk.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_imagingtk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_tkinter_finder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Pillow-8.2.0-py3.6-linux-aarch64.egg/PIL/features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/blink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/native_libs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/EGG-INFO/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/_C.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/_C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/_C_tests.cpython-36m-aarch64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/_C_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/caltech.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/celeba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/cifar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/cityscapes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/coco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/fakedata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/flickr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/folder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/hmdb51.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/imagenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/kinetics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/lsun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/omniglot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/phototour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/sbd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/sbu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/semeion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/stl10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/svhn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/ucf101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/usps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/video_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/vision.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/datasets/voc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/extension.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/io/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/io/video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/alexnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/densenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/backbone_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/faster_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/generalized_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/image_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/keypoint_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/mask_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/roi_heads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/rpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/detection/transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/googlenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/inception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/mnasnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/mobilenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/segmentation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/segmentation/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/segmentation/deeplabv3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/segmentation/fcn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/segmentation/segmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/shufflenetv2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/squeezenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/vgg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/video/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/models/video/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/feature_pyramid_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/poolers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/roi_align.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/ops/roi_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/transforms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/transforms/functional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/transforms/transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/torchvision-0.4.1a0+a263704-py3.6-linux-aarch64.egg/torchvision/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/warn-blink.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blink/xref-blink.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dataloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/losses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mydataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/optim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tensorboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-cpu-dlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_intelligent_whellchair_GUI.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,35 +237,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-              <folding>
-                <element signature="e#65#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run-cpu-dlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#39#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blink.py">
+        <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4032">
-              <caret line="112" column="33" lean-forward="true" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
@@ -49,17 +250,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intelligent_whellchair.py">
+        <entry file="file://$PROJECT_DIR$/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3635">
-              <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
+            <state relative-caret-position="360">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#201#279#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source_pyqt.qrc">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/option/basic_option.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3406">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3776">
+              <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -85,7 +302,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +312,8 @@
         <option value="$PROJECT_DIR$/run_intelligent_whellchair_GUI.py" />
         <option value="$PROJECT_DIR$/test_blink.py" />
         <option value="$PROJECT_DIR$/blink.py" />
+        <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" />
       </list>
     </option>
   </component>
@@ -125,6 +344,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -132,6 +352,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intelligent_wheelchair_gui\weight" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\test" />
     </key>
@@ -148,7 +371,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.blink">
+  <component name="RunManager" selected="Python.Intelligent_wheelchair_gui_2">
+    <configuration name="Intelligent_wheelchair_gui_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="blink" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,28 +430,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intelligent_whellchair.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run-cpu-dlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run-cpu-dlib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +478,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Intelligent_wheelchair_gui_2" />
         <item itemvalue="Python.blink" />
         <item itemvalue="Python tests.pytest in blink.py" />
         <item itemvalue="Python.run_intelligent_whellchair_GUI" />
         <item itemvalue="Python.intelligent_whellchair" />
-        <item itemvalue="Python.run-cpu-dlib" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +504,7 @@
       <workItem from="1625322942337" duration="4081000" />
       <workItem from="1625366337833" duration="107000" />
       <workItem from="1625366483691" duration="9084000" />
+      <workItem from="1647169692943" duration="630000" />
     </task>
     <servers />
   </component>
@@ -293,18 +517,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62663000" />
+    <option name="totallyTimeSpent" value="63293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15167785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15369128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.042735044" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.043227665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +538,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.07348703" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -327,39 +551,19 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$run_intelligent_whellchair_GUI.coverage" NAME="run_intelligent_whellchair_GUI Coverage Results" MODIFIED="1625304026863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$intelligent_whellchair.coverage" NAME="intelligent_whellchair Coverage Results" MODIFIED="1625302706975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$serialwin32.coverage" NAME="serialwin32 Coverage Results" MODIFIED="1625136465970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial" />
+    <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625390231793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$Intelligent_wheelchair_gui_2.coverage" NAME="Intelligent_wheelchair_gui_2 Coverage Results" MODIFIED="1647170328052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$run_intelligent_whellchair_GUI.coverage" NAME="run_intelligent_whellchair_GUI Coverage Results" MODIFIED="1625304026863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/serialwin32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/serialutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="243" selection-start-line="243" selection-end-line="243" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/option/basic_option.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/serialwin32.py" />
+    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/serialutil.py" />
+    <entry file="file://$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -367,23 +571,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source_pyqt.qrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intelligent_whellchair.py">
+    <entry file="file://$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3635">
-          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
+        <state relative-caret-position="-3276">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#436#446#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py">
+    <entry file="file://$PROJECT_DIR$/begin.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -397,10 +598,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/intelligent_whellchair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_pyqt.qrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mydataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/about.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blink.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4032">
-          <caret line="112" column="33" lean-forward="true" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+        <state relative-caret-position="3600">
+          <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+          <folding>
+            <element signature="e#65#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <folding>
+            <element signature="e#203#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/losses.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/optim.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tensorboard.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3776">
+          <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#201#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/option/basic_option.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2808">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+          <folding>
+            <element signature="e#65#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>

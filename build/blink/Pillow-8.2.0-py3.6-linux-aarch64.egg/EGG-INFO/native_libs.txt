@@ -1,4 +1,0 @@
-PIL/_imaging.cpython-36m-aarch64-linux-gnu.so
-PIL/_imagingmath.cpython-36m-aarch64-linux-gnu.so
-PIL/_imagingmorph.cpython-36m-aarch64-linux-gnu.so
-PIL/_imagingtk.cpython-36m-aarch64-linux-gnu.so
