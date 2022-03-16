@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8113cf6-c31b-4b0d-a610-877fa3962467" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/design.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/design.ui" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/left_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/left_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/right_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/right_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/up_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/up_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/run.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/run.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/stop.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/stop.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/res.qrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/res_rc.py" afterDir="false" />
@@ -45,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="120" column="36" lean-forward="true" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+              <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
@@ -56,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="357" column="27" lean-forward="true" selection-start-line="357" selection-start-column="27" selection-end-line="357" selection-end-column="27" />
+            <state relative-caret-position="192">
+              <caret line="257" column="46" lean-forward="true" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
@@ -136,8 +129,10 @@
       <find>SE</find>
       <find>in</find>
       <find>_in</find>
-      <find>self.use_cpu_dlib</find>
       <find>sig_eye</find>
+      <find>print</find>
+      <find>self.use_cpu_dlib</find>
+      <find>self.use</find>
     </findStrings>
     <replaceStrings>
       <replace>frame</replace>
@@ -363,7 +358,7 @@
       <workItem from="1647169692943" duration="3269000" />
       <workItem from="1647175311649" duration="5015000" />
       <workItem from="1647244566402" duration="8139000" />
-      <workItem from="1647400974002" duration="12881000" />
+      <workItem from="1647400974002" duration="16399000" />
     </task>
     <servers />
   </component>
@@ -376,7 +371,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91967000" />
+    <option name="totallyTimeSpent" value="95485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -387,8 +382,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32853025" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33692724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3207547" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33692724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,7 +392,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.27873564" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.27762803" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,7 +408,7 @@
     <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$intelligent_whellchair.coverage" NAME="intelligent_whellchair Coverage Results" MODIFIED="1625302706975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$serialwin32.coverage" NAME="serialwin32 Coverage Results" MODIFIED="1625136465970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial" />
-    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647427461514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647441895728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625390231793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -617,17 +612,26 @@
     <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="120" column="36" lean-forward="true" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/preleft.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/preright.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/preup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="357" column="27" lean-forward="true" selection-start-line="357" selection-start-column="27" selection-end-line="357" selection-end-column="27" />
+        <state relative-caret-position="192">
+          <caret line="257" column="46" lean-forward="true" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>

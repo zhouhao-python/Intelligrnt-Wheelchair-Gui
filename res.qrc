@@ -9,9 +9,9 @@
     <file>image/right_2.png</file>
     <file>image/up.png</file>
     <file>image/up_2.png</file>
+    <file>image/haligong.ico</file>
     <file>image/run.png</file>
     <file>image/stop.png</file>
-    <file>image/haligong.ico</file>
     <file>image/haligong.png</file>
   </qresource>
 </RCC>

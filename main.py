@@ -52,6 +52,8 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         self.thread.sig_pre.connect(self.sig_prefn)
         self.thread.sig_fps.connect(self.sig_fpsfn)
         self.thread.sig_eyeopen.connect(self.sig_eyeopenfn)
+        self.contorloriteninit()
+
     def sig_eyeopenfn(self,open):
         self.labeyeopen.setText("{:.2f}".format(open))
     def sig_fpsfn(self,fps):
@@ -64,7 +66,8 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         eyethread = self.dsboxthread.value()
         eyefliternum = self.sboxeyenum.value()
         fliternum = self.sboxfilternum.value()
-        return [capmum,eyewidth,eyeheight,eyethread,eyefliternum,fliternum]
+        use_gpu_dlib = True if self.rtngpu.isChecked() else False
+        return [capmum,eyewidth,eyeheight,eyethread,eyefliternum,fliternum,use_gpu_dlib]
 
     def setimage(self):
         """
@@ -125,6 +128,15 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
 
     def btnreturnfn(self):
         self.setCurrentIndex(0)
+    def contorloriteninit(self):
+        """
+        初始化箭头指向
+        :return:
+        """
+        self.labright.setPixmap(QPixmap.fromImage(self.right_false))
+        self.lableft.setPixmap(QPixmap.fromImage(self.left_false))
+        self.labup.setPixmap(QPixmap.fromImage(self.up_false))
+        self.labrun.setPixmap(QPixmap.fromImage(self.stop))
 
     def btnstartfn(self):
         # if self.btnstartnum % 2 == 0:
@@ -166,10 +178,10 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
             self.labrun.setPixmap(QPixmap.fromImage(self.stop))
 
     def sig_prefn(self,premess):
-        if premess == 0:
+        if premess == 1:
             self.labpreorient.setText("前方")
             self.labpreeye.setPixmap(QPixmap.fromImage(self.preupimage))
-        if premess == 1:
+        if premess == 0:
             self.labpreorient.setText("左方")
             self.labpreeye.setPixmap(QPixmap.fromImage(self.preleftimage))
         if premess == 2:
@@ -179,17 +191,14 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
     def eye_image(self,image_eye):
         image = cv2.cvtColor(image_eye, cv2.COLOR_BGR2RGB)
         height, width, bytesPerComponent = image.shape
-        print("h:{},w:{}".format(height,width))
         bytesPerLine = bytesPerComponent * width
         q_image = QtGui.QImage(image.data, width, height, bytesPerLine,
                                QtGui.QImage.Format_RGB888).scaled(self.labeye.width(), self.labeye.height(),Qt.KeepAspectRatio,Qt.SmoothTransformation)
         self.labeye.setPixmap(QtGui.QPixmap.fromImage(q_image))
 
     def face_image(self,image):
-        # print("debug",image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         height, width, bytesPerComponent = image.shape
-        print("h:{},w:{}".format(height, width))
         bytesPerLine = bytesPerComponent * width
         q_image = QtGui.QImage(image.data, width, height, bytesPerLine,
                                QtGui.QImage.Format_RGB888).scaled(self.labface.width(), self.labface.height(),Qt.KeepAspectRatio,Qt.SmoothTransformation)
@@ -222,7 +231,6 @@ class Worker(QThread):
         self.RIGHT_EYE_END = 42 - 1
         self.LEFT_EYE_START = 43 - 1
         self.LEFT_EYE_END = 48 - 1
-        self.use_cpu_dlib = True
         self.predictor_path = "./dlib/shape_predictor_68_face_landmarks.dat"
         self.predictor = dlib.shape_predictor(self.predictor_path)
         self.time_list = []
@@ -241,7 +249,7 @@ class Worker(QThread):
         :param message:
         :return:
         """
-        self.cap_num,self.eye_w, self.eye_h,self.EYE_EAR,self.EYE_EAR_BEYOND_TIME,self.FLITER_NUM = message[0],message[1],message[2],message[3],message[4],message[5]
+        self.cap_num,self.eye_w, self.eye_h,self.EYE_EAR,self.EYE_EAR_BEYOND_TIME,self.FLITER_NUM ,self.use_Gpu_dlib= message[0],message[1],message[2],message[3],message[4],message[5],message[6]
         #self.EYE_EAR_BEYOND_TIME 这个值设置的越小，眨眼所需的时间间隔越小
         #self.EYE_EAR  EAR阈值 眨眼判定的幅度越大，越容易判断
 
@@ -262,12 +270,7 @@ class Worker(QThread):
         blink_counter_stop = False
 
         a, w, dd = 0, 0, 0
-        # serialFd = Series()
-        # serialFd.
-
-        # print("可用端口名>>>", serialFd.name)
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        # print("device is ", device)
         model = GoogleNet3()
         model.load_state_dict(torch.load("./weight/Basic_Epoch_3_Accuracy_0.93.pth"))
         # 近中远
@@ -276,11 +279,11 @@ class Worker(QThread):
 
         self.cap.set(3, 640)
         self.cap.set(4, 480)
-        # print(f'camera width = {cap.get(3)}\ncamera height = {cap.get(4)}')
+
         offset_pixelY = -10
         offset_pixelX = 0
 
-        if self.use_cpu_dlib == True:
+        if self.use_Gpu_dlib == False:
             detector = dlib.get_frontal_face_detector()
         else:
             detector = dlib.cnn_face_detection_model_v1("./mmod_human_face_detector.dat")
@@ -298,7 +301,7 @@ class Worker(QThread):
                 self.sig.emit(3)
             if dets:
                 for i, d in enumerate(dets):
-                    if self.use_cpu_dlib == True:
+                    if self.use_Gpu_dlib == False:
                         shape = self.predictor(frame, d)  # 预测人脸形状大小
                     else:
                         face = d.rect
@@ -336,7 +339,7 @@ class Worker(QThread):
                                 dets_stop = detector(frame_stop, 0)
                                 if dets_stop:
                                     for i, d in enumerate(dets_stop):
-                                        if self.use_cpu_dlib == True:
+                                        if self.use_Gpu_dlib == False:
                                             shape_stop = self.predictor(frame_stop, d)  # 预测人脸形状大小
                                         else:
                                             face = d.rect
@@ -379,7 +382,6 @@ class Worker(QThread):
                     except:
                         continue
                     if crop_eye.shape[0] > 0 and crop_eye.shape[1]>0:
-                        print("crop_eye.shape",crop_eye.shape)
                         inputs = transformer(crop_eye).to(device)
                         outputs = model(inputs.unsqueeze(0))
                         _, y_pred = torch.max(outputs, dim=1)
@@ -405,8 +407,8 @@ class Worker(QThread):
                                 self.serial_servo.write('d'.encode())
                         fps = (fps + (1. / (time.time() - t1))) / 2
                         self.sig_fps.emit(fps)
-                        frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 100),
-                                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+                        frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 50),
+                                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 20, 20), 1)
                     else:
                         continue
             self.sig_face.emit(frame)
