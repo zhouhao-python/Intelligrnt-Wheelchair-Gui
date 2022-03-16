@@ -1,11 +1,16 @@
 <RCC>
   <qresource prefix="/">
+    <file>image/preleft.png</file>
+    <file>image/preright.png</file>
+    <file>image/preup.png</file>
     <file>image/left.png</file>
     <file>image/left_2.png</file>
     <file>image/right.png</file>
     <file>image/right_2.png</file>
     <file>image/up.png</file>
     <file>image/up_2.png</file>
+    <file>image/run.png</file>
+    <file>image/stop.png</file>
     <file>image/haligong.ico</file>
     <file>image/haligong.png</file>
   </qresource>
