@@ -20,7 +20,6 @@ from PyQt5.QtCore import QThread, pyqtSignal,QSettings
 from imutils import face_utils
 from scipy.spatial import distance
 import time
-from drawlabel import Drawlabel
 from PyQt5.QtSerialPort import QSerialPort
 from series import Series
 
@@ -52,10 +51,16 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         self.thread.sig_pre.connect(self.sig_prefn)
         self.thread.sig_fps.connect(self.sig_fpsfn)
         self.thread.sig_eyeopen.connect(self.sig_eyeopenfn)
+        self.thread.sig_serialopen.connect(self.sig_serialopenfn)
         self.contorloriteninit()
+    def sig_serialopenfn(self,isopen):
+        print("isopen",isopen)
+        if not isopen:
+            QMessageBox.warning(self,"警告","舵机控制串口打开失败，请检查USB连接！")
 
     def sig_eyeopenfn(self,open):
         self.labeyeopen.setText("{:.2f}".format(open))
+
     def sig_fpsfn(self,fps):
         self.labfps.setText("{:.1f}".format(fps))
 
@@ -67,7 +72,7 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         eyefliternum = self.sboxeyenum.value()
         fliternum = self.sboxfilternum.value()
         use_gpu_dlib = True if self.rtngpu.isChecked() else False
-        return [capmum,eyewidth,eyeheight,eyethread,eyefliternum,fliternum,use_gpu_dlib]
+        return [capmum,eyewidth,eyeheight,eyethread,eyefliternum,fliternum,use_gpu_dlib,self.startflag]
 
     def setimage(self):
         """
@@ -127,7 +132,12 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         self.sboxfilternum.valueChanged.connect(lambda :self.main_to_thread.emit(self.genemessage()))
 
     def btnreturnfn(self):
-        self.setCurrentIndex(0)
+        if self.startflag:
+            reply = QMessageBox.question(self, "确认", "程序运行中，确认返回首页吗?", QtWidgets.QMessageBox.Yes|QtWidgets.QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                self.setCurrentIndex(0)
+        else:
+            self.setCurrentIndex(0)
     def contorloriteninit(self):
         """
         初始化箭头指向
@@ -139,18 +149,28 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         self.labrun.setPixmap(QPixmap.fromImage(self.stop))
 
     def btnstartfn(self):
-        # if self.btnstartnum % 2 == 0:
-        #     self.btnstart.setText("开始运行")
-        #     self.btnstart.setStyleSheet('background-color: rgba(3, 60, 152,99);'
-        #                                 'color: rgb(255, 255, 255);border-radius: 10px; border: 2px groove gray;border-style: outset;')
-        #
-        # else:
-        #     self.btnstart.setText("结束运行")
-        #     self.btnstart.setStyleSheet(
-        #         'background-color: rgb(214, 0, 4);color: rgb(255, 255, 255);border-radius: 10px; border: 2px groove gray;border-style: outset;')
-        self.main_to_thread.emit(self.genemessage())
-        self.thread.start()
+        if self.btnstartnum % 2 == 0:
+            self.startflag = True
+            self.btnstart.setText("   结束运行   ")
+            self.btnstart.setStyleSheet(
+                'QPushButton{background-color: rgba(214,0, 4,99);color: rgb(255, 255, 255);border-radius: 10px; border: 2px groove gray;border-style: outset;}'
+                'QPushButton:hover{background-color: rgb(214,0, 4)}')
+            self.main_to_thread.emit(self.genemessage())
+            self.thread.start()
+        else:
+            self.startflag = False
+            self.btnstart.setText("   开始运行   ")
+            self.btnstart.setStyleSheet(
+                'QPushButton{background-color: rgba(3, 60, 152,99);color: rgb(255, 255, 255);border-radius: 10px; border: 2px groove gray;border-style: outset;}'
+                'QPushButton:hover{background-color: rgb(3, 60, 152)}')
+            self.labmoveorient.setText("停止")
+            self.labright.setPixmap(QPixmap.fromImage(self.right_false))
+            self.lableft.setPixmap(QPixmap.fromImage(self.left_false))
+            self.labup.setPixmap(QPixmap.fromImage(self.up_false))
+            self.labrun.setPixmap(QPixmap.fromImage(self.stop))
+            self.main_to_thread.emit(self.genemessage())
 
+        self.btnstartnum +=1
     def update_classification(self,text):
         if text == 1:
             self.labmoveorient.setText("前进")
@@ -224,6 +244,7 @@ class Worker(QThread):
     sig_pre = pyqtSignal(int)
     sig_fps = pyqtSignal(float)
     sig_eyeopen = pyqtSignal(float)
+    sig_serialopen= pyqtSignal(bool)
     def __init__(self,parent=None):
         super(Worker, self).__init__(parent)
         self.stop_flag = False
@@ -240,8 +261,8 @@ class Worker(QThread):
         self.serial_servo.setPortName(serialname)
         self.serial_servo.setBaudRate(QSerialPort.BaudRate.Baud115200)
         self.serial_servo.open(QSerialPort.WriteOnly)
-        # if not self.serial_servo.isOpen():
-        #     QMessageBox.warning(self, '警告', "舵机控制串口打开失败！")
+
+
 
     def receive_from_main(self,message):
         """
@@ -249,7 +270,7 @@ class Worker(QThread):
         :param message:
         :return:
         """
-        self.cap_num,self.eye_w, self.eye_h,self.EYE_EAR,self.EYE_EAR_BEYOND_TIME,self.FLITER_NUM ,self.use_Gpu_dlib= message[0],message[1],message[2],message[3],message[4],message[5],message[6]
+        self.cap_num,self.eye_w, self.eye_h,self.EYE_EAR,self.EYE_EAR_BEYOND_TIME,self.FLITER_NUM ,self.use_Gpu_dlib,self.startflag= message[0],message[1],message[2],message[3],message[4],message[5],message[6],message[7]
         #self.EYE_EAR_BEYOND_TIME 这个值设置的越小，眨眼所需的时间间隔越小
         #self.EYE_EAR  EAR阈值 眨眼判定的幅度越大，越容易判断
 
@@ -261,8 +282,9 @@ class Worker(QThread):
         return ear
 
     def run(self):
+        if not self.serial_servo.isOpen():
+            self.sig_serialopen.emit(False)
         self.cap = cv2.VideoCapture(self.cap_num)
-
         self.time_list = []
         blink_counter = False
         frame_counter = 0
@@ -290,128 +312,129 @@ class Worker(QThread):
         fps = 0.0
         read_flag,_ = self.cap.read()
         while read_flag:
-            eye_w, eye_h = self.eye_w, self.eye_h
-            pt_pos = []
-            t1 = time.time()
-            _, frame = self.cap.read()
-            dets = detector(frame, 0)
-            temp = len(dets)
-            if temp == 0:
-                self.serial_servo.write('r'.encode())
-                self.sig.emit(3)
-            if dets:
-                for i, d in enumerate(dets):
-                    if self.use_Gpu_dlib == False:
+            if self.startflag:
+                eye_w, eye_h = self.eye_w, self.eye_h
+                pt_pos = []
+                t1 = time.time()
+                _, frame = self.cap.read()
+                dets = detector(frame, 0)
+                temp = len(dets)
+                if temp == 0:
+                    self.serial_servo.write('r'.encode())
+                    self.sig.emit(3)
+                if dets:
+                    for i, d in enumerate(dets):
+                        if self.use_Gpu_dlib == False:
+                            shape = self.predictor(frame, d)  # 预测人脸形状大小
+                        else:
+                            face = d.rect
+                            left = face.left()
+                            top = face.top()
+                            right = face.right()
+                            bottom = face.bottom()
+                            d = dlib.rectangle(left, top, right, bottom)
+                            cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 3)
                         shape = self.predictor(frame, d)  # 预测人脸形状大小
-                    else:
-                        face = d.rect
-                        left = face.left()
-                        top = face.top()
-                        right = face.right()
-                        bottom = face.bottom()
-                        d = dlib.rectangle(left, top, right, bottom)
-                        cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 3)
-                    shape = self.predictor(frame, d)  # 预测人脸形状大小
-                    points = face_utils.shape_to_np(shape)
-                    leftEye = points[self.LEFT_EYE_START:self.LEFT_EYE_END + 1]  # 取出左眼对应的特征点
-                    rightEye = points[self.RIGHT_EYE_START:self.RIGHT_EYE_END + 1]  # 取出右眼对应的特征点
-                    # print("lefteye",leftEye)
-                    leftEAR = self.eye_aspect_ratio(leftEye)  # 计算左眼EAR
-                    rightEAR = self.eye_aspect_ratio(rightEye)  # 计算右眼EAR
-                    ear = (leftEAR + rightEAR) / 2.0
-                    self.sig_eyeopen.emit(ear)
-                    if ear < self.EYE_EAR:  # 如果EAR小于阈值，开始累计连续眨眼次数
-                        frame_counter += 1
-                    else:
-                        if frame_counter >= self.EYE_EAR_BEYOND_TIME:  # 连续帧计数超过EYE_EAR_BEYOND_TIME的帧数时，累加超时次数（blink_counter+1）并给予提示警告
-                            print("frame_counter",frame_counter)
-                            blink_counter = True
-                        frame_counter = 0
-                    if blink_counter == True:
-                        self.sig.emit(3)
-                        self.stop_flag = True
-                        blink_counter = False
-                        while self.stop_flag:
-                            self.serial_servo.write('r'.encode())
-                            stop_flag,_ = self.cap.read()
-                            while stop_flag and self.stop_flag:
-                                _, frame_stop = self.cap.read()
-                                dets_stop = detector(frame_stop, 0)
-                                if dets_stop:
-                                    for i, d in enumerate(dets_stop):
-                                        if self.use_Gpu_dlib == False:
+                        points = face_utils.shape_to_np(shape)
+                        leftEye = points[self.LEFT_EYE_START:self.LEFT_EYE_END + 1]  # 取出左眼对应的特征点
+                        rightEye = points[self.RIGHT_EYE_START:self.RIGHT_EYE_END + 1]  # 取出右眼对应的特征点
+                        # print("lefteye",leftEye)
+                        leftEAR = self.eye_aspect_ratio(leftEye)  # 计算左眼EAR
+                        rightEAR = self.eye_aspect_ratio(rightEye)  # 计算右眼EAR
+                        ear = (leftEAR + rightEAR) / 2.0
+                        self.sig_eyeopen.emit(ear)
+                        if ear < self.EYE_EAR:  # 如果EAR小于阈值，开始累计连续眨眼次数
+                            frame_counter += 1
+                        else:
+                            if frame_counter >= self.EYE_EAR_BEYOND_TIME:  # 连续帧计数超过EYE_EAR_BEYOND_TIME的帧数时，累加超时次数（blink_counter+1）并给予提示警告
+                                print("frame_counter",frame_counter)
+                                blink_counter = True
+                            frame_counter = 0
+                        if blink_counter == True:
+                            self.sig.emit(3)
+                            self.stop_flag = True
+                            blink_counter = False
+                            while self.stop_flag:
+                                self.serial_servo.write('r'.encode())
+                                stop_flag,_ = self.cap.read()
+                                while stop_flag and self.stop_flag:
+                                    _, frame_stop = self.cap.read()
+                                    dets_stop = detector(frame_stop, 0)
+                                    if dets_stop:
+                                        for i, d in enumerate(dets_stop):
+                                            if self.use_Gpu_dlib == False:
+                                                shape_stop = self.predictor(frame_stop, d)  # 预测人脸形状大小
+                                            else:
+                                                face = d.rect
+                                                left = face.left()
+                                                top = face.top()
+                                                right = face.right()
+                                                bottom = face.bottom()
+                                                d = dlib.rectangle(left, top, right, bottom)
+                                                cv2.rectangle(frame_stop, (left, top), (right, bottom), (0, 255, 0), 3)
                                             shape_stop = self.predictor(frame_stop, d)  # 预测人脸形状大小
-                                        else:
-                                            face = d.rect
-                                            left = face.left()
-                                            top = face.top()
-                                            right = face.right()
-                                            bottom = face.bottom()
-                                            d = dlib.rectangle(left, top, right, bottom)
-                                            cv2.rectangle(frame_stop, (left, top), (right, bottom), (0, 255, 0), 3)
-                                        shape_stop = self.predictor(frame_stop, d)  # 预测人脸形状大小
-                                        points = face_utils.shape_to_np(shape_stop)
-                                        leftEye_stop = points[
-                                                  self.LEFT_EYE_START:self.LEFT_EYE_END + 1]  # 取出左眼对应的特征点
-                                        rightEye_stop = points[
-                                                   self.RIGHT_EYE_START:self.RIGHT_EYE_END + 1]  # 取出右眼对应的特征点
-                                        leftEAR_stop = self.eye_aspect_ratio(leftEye_stop)  # 计算左眼EAR
-                                        rightEAR_stop = self.eye_aspect_ratio(rightEye_stop)  # 计算右眼EAR
-                                        ear_stop = (leftEAR_stop + rightEAR_stop) / 2.0
-                                        self.sig_eyeopen.emit(ear_stop)
-                                        if ear_stop < self.EYE_EAR:  # 如果EAR小于阈值，开始累计连续眨眼次数
-                                            frame_counter_stop += 1
-                                        else:
-                                            if frame_counter_stop >= self.EYE_EAR_BEYOND_TIME:  # 连续帧计数超过EYE_EAR_BEYOND_TIME的帧数时，累加超时次数（blink_counter+1）并给予提示警告
-                                                blink_counter_stop = True
-                                            frame_counter_stop = 0
-                                        if blink_counter_stop == True:
-                                            self.stop_flag = False
-                                            blink_counter_stop = False
-                    for index, pt in enumerate(shape.parts()):
-                        pt_pos.append((pt.x, pt.y))  # 人脸坐标点
-                    left_eye = frame[pt_pos[37][1] + offset_pixelY:pt_pos[37][1] + eye_h + offset_pixelY,
-                               pt_pos[36][0] + offset_pixelX:pt_pos[36][0] + eye_w + offset_pixelX]
+                                            points = face_utils.shape_to_np(shape_stop)
+                                            leftEye_stop = points[
+                                                      self.LEFT_EYE_START:self.LEFT_EYE_END + 1]  # 取出左眼对应的特征点
+                                            rightEye_stop = points[
+                                                       self.RIGHT_EYE_START:self.RIGHT_EYE_END + 1]  # 取出右眼对应的特征点
+                                            leftEAR_stop = self.eye_aspect_ratio(leftEye_stop)  # 计算左眼EAR
+                                            rightEAR_stop = self.eye_aspect_ratio(rightEye_stop)  # 计算右眼EAR
+                                            ear_stop = (leftEAR_stop + rightEAR_stop) / 2.0
+                                            self.sig_eyeopen.emit(ear_stop)
+                                            if ear_stop < self.EYE_EAR:  # 如果EAR小于阈值，开始累计连续眨眼次数
+                                                frame_counter_stop += 1
+                                            else:
+                                                if frame_counter_stop >= self.EYE_EAR_BEYOND_TIME:  # 连续帧计数超过EYE_EAR_BEYOND_TIME的帧数时，累加超时次数（blink_counter+1）并给予提示警告
+                                                    blink_counter_stop = True
+                                                frame_counter_stop = 0
+                                            if blink_counter_stop == True:
+                                                self.stop_flag = False
+                                                blink_counter_stop = False
+                        for index, pt in enumerate(shape.parts()):
+                            pt_pos.append((pt.x, pt.y))  # 人脸坐标点
+                        left_eye = frame[pt_pos[37][1] + offset_pixelY:pt_pos[37][1] + eye_h + offset_pixelY,
+                                   pt_pos[36][0] + offset_pixelX:pt_pos[36][0] + eye_w + offset_pixelX]
 
-                    right_eye = frame[pt_pos[44][1] + offset_pixelY:pt_pos[44][1] + eye_h + offset_pixelY,
-                                pt_pos[42][0] + offset_pixelX:pt_pos[42][0] + eye_w + offset_pixelX]
-                    try:
-                        crop_eye = np.concatenate((left_eye, right_eye),
-                                              axis=1)
-                        self.sig_eye.emit(crop_eye)
-                    except:
-                        continue
-                    if crop_eye.shape[0] > 0 and crop_eye.shape[1]>0:
-                        inputs = transformer(crop_eye).to(device)
-                        outputs = model(inputs.unsqueeze(0))
-                        _, y_pred = torch.max(outputs, dim=1)
-                        y_pred = y_pred.item()
-                        self.sig_pre.emit(y_pred)
-                        if y_pred == 1:
-                            w += 1
-                            if w % self.FLITER_NUM == 0:
-                                self.sig.emit(int(y_pred))
-                                self.serial_servo.write('r'.encode())
-                                self.serial_servo.write('w'.encode())
-                        if y_pred == 0:
-                            a += 1
-                            if a % self.FLITER_NUM == 0:
-                                self.sig.emit(int(y_pred))
-                                self.serial_servo.write('r'.encode())
-                                self.serial_servo.write('a'.encode())
-                        if y_pred == 2:
-                            dd += 1
-                            if dd % self.FLITER_NUM == 0:
-                                self.sig.emit(int(y_pred))
-                                self.serial_servo.write('r'.encode())
-                                self.serial_servo.write('d'.encode())
-                        fps = (fps + (1. / (time.time() - t1))) / 2
-                        self.sig_fps.emit(fps)
-                        frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 50),
-                                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 20, 20), 1)
-                    else:
-                        continue
-            self.sig_face.emit(frame)
+                        right_eye = frame[pt_pos[44][1] + offset_pixelY:pt_pos[44][1] + eye_h + offset_pixelY,
+                                    pt_pos[42][0] + offset_pixelX:pt_pos[42][0] + eye_w + offset_pixelX]
+                        try:
+                            crop_eye = np.concatenate((left_eye, right_eye),
+                                                  axis=1)
+                            self.sig_eye.emit(crop_eye)
+                        except:
+                            continue
+                        if crop_eye.shape[0] > 0 and crop_eye.shape[1]>0:
+                            inputs = transformer(crop_eye).to(device)
+                            outputs = model(inputs.unsqueeze(0))
+                            _, y_pred = torch.max(outputs, dim=1)
+                            y_pred = y_pred.item()
+                            self.sig_pre.emit(y_pred)
+                            if y_pred == 1:
+                                w += 1
+                                if w % self.FLITER_NUM == 0:
+                                    self.sig.emit(int(y_pred))
+                                    self.serial_servo.write('r'.encode())
+                                    self.serial_servo.write('w'.encode())
+                            if y_pred == 0:
+                                a += 1
+                                if a % self.FLITER_NUM == 0:
+                                    self.sig.emit(int(y_pred))
+                                    self.serial_servo.write('r'.encode())
+                                    self.serial_servo.write('a'.encode())
+                            if y_pred == 2:
+                                dd += 1
+                                if dd % self.FLITER_NUM == 0:
+                                    self.sig.emit(int(y_pred))
+                                    self.serial_servo.write('r'.encode())
+                                    self.serial_servo.write('d'.encode())
+                            fps = (fps + (1. / (time.time() - t1))) / 2
+                            self.sig_fps.emit(fps)
+                            frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 50),
+                                                cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 20, 20), 1)
+                        else:
+                            continue
+                self.sig_face.emit(frame)
         self.cap.release()
 
 if __name__ == "__main__":

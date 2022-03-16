@@ -4,13 +4,7 @@
     <list default="true" id="b8113cf6-c31b-4b0d-a610-877fa3962467" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/design.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/design.ui" beforeDir="false" afterPath="$PROJECT_DIR$/design/design.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/run.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/run.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/stop.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/stop.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/res.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/res_rc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="257" column="46" lean-forward="true" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
+            <state relative-caret-position="224">
+              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
@@ -358,7 +352,7 @@
       <workItem from="1647169692943" duration="3269000" />
       <workItem from="1647175311649" duration="5015000" />
       <workItem from="1647244566402" duration="8139000" />
-      <workItem from="1647400974002" duration="16399000" />
+      <workItem from="1647400974002" duration="17363000" />
     </task>
     <servers />
   </component>
@@ -371,7 +365,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95485000" />
+    <option name="totallyTimeSpent" value="96449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -408,7 +402,7 @@
     <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$intelligent_whellchair.coverage" NAME="intelligent_whellchair Coverage Results" MODIFIED="1625302706975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$serialwin32.coverage" NAME="serialwin32 Coverage Results" MODIFIED="1625136465970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial" />
-    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647441895728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647443077840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625390231793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -630,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="257" column="46" lean-forward="true" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
+        <state relative-caret-position="224">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>
