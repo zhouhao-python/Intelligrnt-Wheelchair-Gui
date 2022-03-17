@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-
+"""
+作者 周浩
+时间 2022/3/17
+"""
 """
 Module implementing mainWindow.
 """
@@ -9,7 +12,6 @@ from PyQt5.QtWidgets import QMainWindow,QStackedWidget,QMessageBox
 from PyQt5.QtGui import QIcon,QImage,QPixmap
 from design.design import Ui_StackedWidget
 import torch
-import serial.tools.list_ports
 import cv2
 import dlib
 import numpy as np
@@ -53,6 +55,7 @@ class mainWindow(QStackedWidget, Ui_StackedWidget):
         self.thread.sig_eyeopen.connect(self.sig_eyeopenfn)
         self.thread.sig_serialopen.connect(self.sig_serialopenfn)
         self.contorloriteninit()
+
     def sig_serialopenfn(self,isopen):
         print("isopen",isopen)
         if not isopen:
@@ -262,8 +265,6 @@ class Worker(QThread):
         self.serial_servo.setBaudRate(QSerialPort.BaudRate.Baud115200)
         self.serial_servo.open(QSerialPort.WriteOnly)
 
-
-
     def receive_from_main(self,message):
         """
         接受主线程的信号
@@ -393,6 +394,8 @@ class Worker(QThread):
                                                 blink_counter_stop = False
                         for index, pt in enumerate(shape.parts()):
                             pt_pos.append((pt.x, pt.y))  # 人脸坐标点
+                        if self.use_Gpu_dlib == False:
+                            cv2.rectangle(frame, (pt_pos[0][0], pt_pos[18][1]-50), (pt_pos[15][0], pt_pos[8][1]), (0, 255, 0), 3)
                         left_eye = frame[pt_pos[37][1] + offset_pixelY:pt_pos[37][1] + eye_h + offset_pixelY,
                                    pt_pos[36][0] + offset_pixelX:pt_pos[36][0] + eye_w + offset_pixelX]
 
@@ -430,8 +433,8 @@ class Worker(QThread):
                                     self.serial_servo.write('d'.encode())
                             fps = (fps + (1. / (time.time() - t1))) / 2
                             self.sig_fps.emit(fps)
-                            frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 50),
-                                                cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 20, 20), 1)
+                            frame = cv2.putText(frame, f"fps={fps:5.1f}", (0, 30),
+                                                cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 20, 20), 2)
                         else:
                             continue
                 self.sig_face.emit(frame)

@@ -2,9 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8113cf6-c31b-4b0d-a610-877fa3962467" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/auto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/back1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/back11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/back2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/back21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/bit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/chuangan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/fengli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/fenglimiehuo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/fenglimiehuoji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/forward1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/forward2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/forword11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/forword21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/ha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/ha11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/ha14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/logo_fin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/pic8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/ser.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/taizi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/up1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/up2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/begin.sh" beforeDir="false" afterPath="$PROJECT_DIR$/begin.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitbug_favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/image/logo.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelligent_whellchair.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelligent_whellchair.ui" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source_pyqt.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source_pyqt_rc.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,23 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
-              <folding>
-                <element signature="e#65#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="393" column="74" lean-forward="true" selection-start-line="393" selection-start-column="74" selection-end-line="393" selection-end-column="74" />
               <folding>
                 <element signature="e#65#107#0" expanded="true" />
               </folding>
@@ -57,45 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/series.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drawlabel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uno-servo/uno-servo.ino">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1908">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/transforms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -151,6 +155,7 @@
         <option value="$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py" />
         <option value="$PROJECT_DIR$/config.ini" />
         <option value="D:/Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/PIL/ImageFile.py" />
+        <option value="$PROJECT_DIR$/begin.sh" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -159,7 +164,7 @@
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,16 +180,10 @@
               <item name="intelligent_wheelchair_gui" type="b2602c69:ProjectViewProjectNode" />
               <item name="intelligent_wheelchair_gui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="intelligent_wheelchair_gui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intelligent_wheelchair_gui" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,13 +195,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\intelligent_wheelchair_gui\weight" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\intelligent_wheelchair_gui" />
       <recent name="E:\intelligent_wheelchair_gui\image" />
       <recent name="D:\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intelligent_wheelchair_gui\image" />
+      <recent name="E:\intelligent_wheelchair_gui\weight" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +353,8 @@
       <workItem from="1647169692943" duration="3269000" />
       <workItem from="1647175311649" duration="5015000" />
       <workItem from="1647244566402" duration="8139000" />
-      <workItem from="1647400974002" duration="17363000" />
+      <workItem from="1647400974002" duration="17635000" />
+      <workItem from="1647483745996" duration="1397000" />
     </task>
     <servers />
   </component>
@@ -365,29 +367,38 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96449000" />
+    <option name="totallyTimeSpent" value="98118000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11208054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32853025" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3207547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33692724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33692724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.27762803" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32795697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -402,7 +413,7 @@
     <SUITE FILE_PATH="coverage/test$run_cpu_dlib.coverage" NAME="run-cpu-dlib Coverage Results" MODIFIED="1625212781010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$intelligent_whellchair.coverage" NAME="intelligent_whellchair Coverage Results" MODIFIED="1625302706975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$serialwin32.coverage" NAME="serialwin32 Coverage Results" MODIFIED="1625136465970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/serial" />
-    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647443077840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$main.coverage" NAME="main Coverage Results" MODIFIED="1647485227867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$pytest_in_test_blink_py.coverage" NAME="pytest in test_blink.py Coverage Results" MODIFIED="1625304275232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/intelligent_wheelchair_gui$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625390231793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$blink.coverage" NAME="blink Coverage Results" MODIFIED="1625327012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -417,23 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3276">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#436#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/begin.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -480,18 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/camera.py" />
     <entry file="file://$PROJECT_DIR$/run_intelligent_whellchair_GUI.py" />
-    <entry file="file://$PROJECT_DIR$/bitbug_favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/haligong.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intelligent_whellchair.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1542">
-          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/option/basic_option.py" />
     <entry file="file://F:/pycharm_temp/.PyCharm2019.1/system/python_stubs/899747117/PyQt5/QtCore/QTimer.py">
@@ -503,6 +487,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/03.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/up_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/up.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/design.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="385" column="54" lean-forward="true" selection-start-line="385" selection-start-column="54" selection-end-line="385" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/pycharm_temp/.PyCharm2019.1/system/python_stubs/899747117/PyQt5/QtGui/QImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/PIL/ImageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="657" lean-forward="true" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="795" selection-start-line="795" selection-end-line="795" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2464">
+          <caret line="160" column="28" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/stop.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/run.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/preleft.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/preright.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/preup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+          <folding>
+            <element signature="e#65#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drawlabel.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,90 +599,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/up_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/up.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/design.py">
+    <entry file="file://$PROJECT_DIR$/intelligent_whellchair.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="385" column="54" lean-forward="true" selection-start-line="385" selection-start-column="54" selection-end-line="385" selection-end-column="54" />
+        <state relative-caret-position="1161">
+          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/pycharm_temp/.PyCharm2019.1/system/python_stubs/899747117/PyQt5/QtGui/QImage.py">
+    <entry file="file://$PROJECT_DIR$/86b60a7723b97da19f7bfa3cb7d2690e/tegra-cam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
+        <state relative-caret-position="1800">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#436#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/logo.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/begin.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://F:/pycharm_temp/.PyCharm2019.1/system/python_stubs/899747117/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="10398" column="4" selection-start-line="10398" selection-start-column="4" selection-end-line="10398" selection-end-column="4" />
+        <state relative-caret-position="-129">
+          <caret line="10233" column="7" lean-forward="true" selection-start-line="10233" selection-start-column="7" selection-end-line="10233" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/PIL/ImageFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="657" lean-forward="true" selection-start-line="657" selection-end-line="657" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Users/hao/anaconda3/envs/intelligent_whellchair/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="795" selection-start-line="795" selection-end-line="795" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2464">
-          <caret line="160" column="28" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/stop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/run.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Intelligent_wheelchair_gui_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
-          <folding>
-            <element signature="e#65#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/preleft.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/preright.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/preup.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+        <state relative-caret-position="136">
+          <caret line="393" column="74" lean-forward="true" selection-start-line="393" selection-start-column="74" selection-end-line="393" selection-end-column="74" />
           <folding>
             <element signature="e#65#107#0" expanded="true" />
           </folding>
