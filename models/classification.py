@@ -150,17 +150,6 @@ class GoogleNet3(nn.Module):
         x = self.resnet(x)
         x = F.relu(self.mp(self.conv3(x)))
         x = x.view(batch,-1)
-        # x = F.relu(self.fc1(x))
-        # x = F.relu(self.fc2(x))
-        # x = F.sigmoid(self.fc3(x))
         x = self.fc(x)
         return x
 
-
-# if __name__ == '__main__':
-#     inputs = torch.randn((1,20,3,50,200))
-#     print(inputs.shape)
-#     model = CnnLstm()
-#     model.train()
-#     output = model(inputs)
-#     print(f'output={output}')
